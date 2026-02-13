@@ -696,6 +696,10 @@
                         <h4 class="section-title">Gestión de Archivos e Importación</h4>
                         <div class="items-grid">
                             <div class="item">
+                                <div class="item-name">Manejo de archivos (Importar, Compartir, Publicar)</div>
+                                <div class="item-desc">Domine las mejores prácticas para cargar, compartir y publicar datos de forma segura y eficiente</div>
+                            </div>
+                            <div class="item">
                                 <div class="item-name">Importación Estratégica</div>
                                 <div class="item-desc">Priorice archivos CSV para cargas masivas por su ligereza y seguridad</div>
                             </div>
@@ -707,11 +711,51 @@
                     </div>
 
                     <div class="section">
+                        <h4 class="section-title">Formato y Diseño Profesional</h4>
+                        <div class="items-grid">
+                            <div class="item">
+                                <div class="item-name">Inmovilizar filas, formato y diseño profesional</div>
+                                <div class="item-desc">Cree hojas de cálculo con apariencia profesional mediante el uso estratégico de encabezados fijos y diseño coherente</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <h4 class="section-title">Protección y Validación de Datos</h4>
+                        <div class="items-grid">
+                            <div class="item">
+                                <div class="item-name">Protección de datos y validaciones</div>
+                                <div class="item-desc">Implemente controles de calidad mediante validación de datos y protección de celdas críticas</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <h4 class="section-title">Referencias de Celdas</h4>
+                        <div class="items-grid">
+                            <div class="item">
+                                <div class="item-name">Rangos con nombre y referencias (Relativas/Absolutas)</div>
+                                <div class="item-desc">Optimice sus fórmulas utilizando referencias absolutas ($), relativas y rangos nombrados para mayor claridad y mantenibilidad</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <h4 class="section-title">Herramientas de Análisis Visual</h4>
+                        <div class="items-grid">
+                            <div class="item">
+                                <div class="item-name">Filtros, vistas y tablas dinámicas</div>
+                                <div class="item-desc">Analice grandes volúmenes de datos mediante filtros avanzados, vistas personalizadas y tablas dinámicas para insights instantáneos</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section">
                         <h4 class="section-title">Seguridad y Niveles de Acceso</h4>
                         <div class="items-grid">
                             <div class="item">
                                 <div class="item-name">Roles de Usuario</div>
-                                <div class="item-desc">Defina quién es Lector, Comentarista o Editor</div>
+                                <div class="item-desc">Defina quién es Lector, Comentarista o Editor según las necesidades de colaboración de su equipo</div>
                             </div>
                         </div>
                     </div>
@@ -722,11 +766,11 @@
                 <div class="session-header" onclick="toggleSession(this)">
                     <div class="session-left">
                         <div class="session-icon" style="background: linear-gradient(135deg, #7c3aed 0%, #a78bfa 100%);">
-                            <i data-lucide="database" style="color: white; width: 32px; height: 32px;"></i>
+                            <i data-lucide="wrench" style="color: white; width: 32px; height: 32px;"></i>
                         </div>
                         <div class="session-info">
                             <h3>Sesión 2</h3>
-                            <div class="session-title">Arquitectura de Datos y Automatización</div>
+                            <div class="session-title">Fórmulas Poderosas</div>
                         </div>
                     </div>
                     <i data-lucide="chevron-right" class="chevron" style="width: 24px; height: 24px;"></i>
@@ -738,30 +782,79 @@
                             Concepto Clave
                         </div>
                         <div class="key-concept-text">
-                            Construya puentes lógicos entre datos mediante consolidación y resumen dinámico.
+                            Domine las fórmulas esenciales y avanzadas que transforman datos crudos en información procesable y automatizada.
                         </div>
                     </div>
 
                     <div class="section">
-                        <h4 class="section-title">Funciones de Búsqueda</h4>
+                        <h4 class="section-title">Funciones Esenciales</h4>
+                        <div class="items-grid">
+                            <div class="item">
+                                <div class="item-name">SUMA, PROMEDIO, MAX, MIN</div>
+                                <div class="item-desc">Fundamentos matemáticos para análisis cuantitativo: calcule totales, promedios y valores extremos con precisión</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <h4 class="section-title">Manipulación de Texto</h4>
+                        <div class="items-grid">
+                            <div class="item">
+                                <div class="item-name">SPLIT, JOIN, MAYUSCULAS</div>
+                                <div class="item-desc">Transforme y formatee cadenas de texto: divida datos delimitados, combine valores y normalice formatos de texto</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <h4 class="section-title">Funciones de Búsqueda y Referencia</h4>
+                        <div class="items-grid">
+                            <div class="item">
+                                <div class="item-name">UNIQUE, BUSCARV, BUSCARH, TRANSPONER</div>
+                                <div class="item-desc">Extraiga valores únicos, busque datos vertical y horizontalmente, y reorganice matrices para análisis multidimensional</div>
+                            </div>
+                        </div>
                         <table class="comparison-table">
                             <thead>
                                 <tr>
                                     <th>Función</th>
+                                    <th>Uso</th>
                                     <th>Recomendación</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><strong>VLOOKUP</strong></td>
+                                    <td><strong>BUSCARV (VLOOKUP)</strong></td>
+                                    <td>Búsqueda vertical tradicional</td>
                                     <td><span class="badge badge-obsolete">Obsoleto</span></td>
                                 </tr>
                                 <tr>
                                     <td><strong>XLOOKUP</strong></td>
+                                    <td>Búsqueda bidireccional moderna</td>
                                     <td><span class="badge badge-professional">Estándar Pro</span></td>
                                 </tr>
                             </tbody>
                         </table>
+                    </div>
+
+                    <div class="section">
+                        <h4 class="section-title">Condicionales Avanzados</h4>
+                        <div class="items-grid">
+                            <div class="item">
+                                <div class="item-name">SI, SI.ERROR, SUMAR.SI</div>
+                                <div class="item-desc">Cree lógica condicional sofisticada: evalúe condiciones, maneje errores elegantemente y sume con criterios específicos</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <h4 class="section-title">Fórmulas de Arreglos</h4>
+                        <div class="items-grid">
+                            <div class="item">
+                                <div class="item-name">ARRAYFORMULA y manejo de arreglos</div>
+                                <div class="item-desc">Potencie sus cálculos procesando rangos completos con una sola fórmula, eliminando la necesidad de copiar fórmulas manualmente</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -786,24 +879,82 @@
                             Concepto Clave
                         </div>
                         <div class="key-concept-text">
-                            La función QUERY permite ejecutar análisis complejos con sintaxis tipo SQL.
+                            La función QUERY permite ejecutar análisis complejos con sintaxis tipo SQL directamente en Google Sheets, transformando datos crudos en información procesable mediante consultas estructuradas.
                         </div>
                     </div>
 
                     <div class="section">
-                        <h4 class="section-title">Cláusulas Principales</h4>
+                        <h4 class="section-title">Cláusulas Principales de QUERY</h4>
                         <div class="items-grid">
                             <div class="item">
                                 <div class="item-name">SELECT</div>
-                                <div class="item-desc">Selección de columnas y operaciones</div>
+                                <div class="item-desc">Selecciona qué columnas retornar y en qué orden. Si se omite, todas las columnas de la tabla son retornadas en su orden predeterminado</div>
                             </div>
                             <div class="item">
                                 <div class="item-name">WHERE</div>
-                                <div class="item-desc">Filtros lógicos</div>
+                                <div class="item-desc">Retorna únicamente las filas que coinciden con una condición. Si se omite, todas las filas son retornadas</div>
                             </div>
                             <div class="item">
                                 <div class="item-name">GROUP BY</div>
-                                <div class="item-desc">Agrupación de datos</div>
+                                <div class="item-desc">Agrega valores a través de filas, permitiendo consolidar datos por categorías específicas</div>
+                            </div>
+                            <div class="item">
+                                <div class="item-name">PIVOT</div>
+                                <div class="item-desc">Transforma valores distintos en columnas en nuevas columnas, creando tablas dinámicas para análisis multidimensional</div>
+                            </div>
+                            <div class="item">
+                                <div class="item-name">ORDER BY</div>
+                                <div class="item-desc">Ordena filas por valores en columnas, permitiendo clasificación ascendente o descendente</div>
+                            </div>
+                            <div class="item">
+                                <div class="item-name">LIMIT</div>
+                                <div class="item-desc">Limita el número de filas retornadas, útil para muestras o resúmenes de datos grandes</div>
+                            </div>
+                            <div class="item">
+                                <div class="item-name">OFFSET</div>
+                                <div class="item-desc">Omite un número dado de primeras filas, permitiendo paginación de resultados</div>
+                            </div>
+                            <div class="item">
+                                <div class="item-name">LABEL</div>
+                                <div class="item-desc">Establece etiquetas de columnas personalizadas para mejorar la presentación de resultados</div>
+                            </div>
+                            <div class="item">
+                                <div class="item-name">FORMAT</div>
+                                <div class="item-desc">Formatea los valores en ciertas columnas usando patrones de formato específicos</div>
+                            </div>
+                            <div class="item">
+                                <div class="item-name">OPTIONS</div>
+                                <div class="item-desc">Establece opciones adicionales para personalizar el comportamiento de la consulta</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <h4 class="section-title">Sintaxis y Estructura</h4>
+                        <div class="key-concept" style="background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%); border-left-color: #3b82f6;">
+                            <div class="key-concept-title" style="color: #3b82f6;">
+                                <i data-lucide="code" style="width: 20px; height: 20px;"></i>
+                                Orden de las Cláusulas
+                            </div>
+                            <div class="key-concept-text">
+                                La sintaxis del lenguaje de consulta está compuesta de las siguientes cláusulas. Cada cláusula comienza con una o dos palabras clave. <strong>Todas las cláusulas son opcionales</strong>. Las cláusulas se separan por espacios. El orden de las cláusulas debe ser el siguiente:<br><br>
+                                <code style="background: white; padding: 0.5rem 1rem; border-radius: 0.5rem; display: block; font-family: monospace; color: #1e40af;">
+                                SELECT → WHERE → GROUP BY → PIVOT → ORDER BY → LIMIT → OFFSET → LABEL → FORMAT → OPTIONS
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <h4 class="section-title">Aplicaciones Profesionales</h4>
+                        <div class="items-grid">
+                            <div class="item">
+                                <div class="item-name">Análisis de Datos Complejos</div>
+                                <div class="item-desc">Combine múltiples cláusulas para crear reportes dinámicos, dashboards interactivos y análisis de business intelligence sin necesidad de herramientas externas</div>
+                            </div>
+                            <div class="item">
+                                <div class="item-name">Consolidación Automatizada</div>
+                                <div class="item-desc">Agregue, filtre y transforme grandes volúmenes de datos en tiempo real para obtener insights accionables instantáneamente</div>
                             </div>
                         </div>
                     </div>
